@@ -3,3 +3,4 @@ trace.id - Id of the trace
 span.id - Id of the span
 k8s.pod.name - Name of the k8s pod
 service.name - Name of the service
+
