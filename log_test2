@@ -1,0 +1,28 @@
+[
+  {
+    "namespace": {
+      "name": "logs",
+      "version": 1
+    },
+    "kind": "metric",
+    "name": "log_records",
+    "displayName": "A number of log records",
+    "category": "sum",
+    "aggregationTemporality": "delta",
+    "isMonotonic": true,
+    "contentType": "sum",
+    "type": "long",
+    "unit": "{logs}",
+    "ingestGranularities": [
+      60
+    ],
+    "attributeDefinitions": {
+      "attributes" : {
+        "severity" : {
+          "type" : "string",
+          "description": "Severity value of log record"
+        }
+      }
+    }
+  }
+]
